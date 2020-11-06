@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 const MainStack = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="AuthRouter">
+      <Stack.Navigator >
         <Stack.Screen
           name="HomeRouter"
           component={HomeRouter}

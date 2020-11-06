@@ -8,7 +8,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 const authRouter = () => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName='SignIn'>
       <Stack.Screen
         name="SignIn"
         component={SignIn}

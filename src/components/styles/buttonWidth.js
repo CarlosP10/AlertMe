@@ -11,10 +11,13 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   buttonView: {
+    borderRadius:15,
     width: width * 0.8,
-    height: height * 0.09,
+    height: height * 0.085,
     marginVertical: 3,
     backgroundColor: Colors.BG_LIGHT_BLUE,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   textStyle: {
     color: Colors.WHITE,

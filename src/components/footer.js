@@ -13,13 +13,13 @@ const Footer = () => {
   return (
     <View style={styles.container}>
       <View style={styles.actionsContainer}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('Home')} >
           <HomeIcon  />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('AddReport')}>
           <PlusCircleIcon />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('UserRouter')}>
           <UserIcon />
         </TouchableOpacity>
       </View>

@@ -7,7 +7,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 const userRouter = () => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName='Profile'>
       <Stack.Screen
         name="Profile"
         component={Profile}

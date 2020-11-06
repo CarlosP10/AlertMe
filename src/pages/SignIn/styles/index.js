@@ -5,15 +5,17 @@ import {Colors} from '@common';
 var {width, height} = Dimensions.get('window');
 export default StyleSheet.create({
   main: {
-    marginVertical: 6,
-    marginHorizontal: 10,
-    justifyContent: 'flex-start',
+    flex: 1,
+    justifyContent: 'space-around',
   },
-  viewRow: {
-    flexDirection: 'row',
+  centerView: {
     alignItems: 'center',
   },
-  marginH: {
-    marginHorizontal: 8,
+  rowView: {
+    flexDirection: 'row',
+  },
+  textBlue: {
+    fontWeight: '500',
+    color: Colors.BG_LIGHT_BLUE,
   },
 });

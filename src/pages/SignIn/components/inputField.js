@@ -14,7 +14,7 @@ const inputField = ({iconName, title, isPass, typeIcon}) => {
           type={typeIcon || 'font-awesome-5'}
           color={Colors.FONT2}
         />
-        <PrimaryText>{title}</PrimaryText>
+        <PrimaryText style={styles.marginH}>{title}</PrimaryText>
       </View>
       <View>
         <Input />
