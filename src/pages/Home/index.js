@@ -8,7 +8,7 @@ import styles from './styles/index';
 
 const index = () => {
   return (
-    <View style={{flex: 1}}>
+    <View style={styles.main}>
       <View style={[{flex: 1}, styles.centerView]}>
         <Text>Home</Text>
         <ScrollComponent>

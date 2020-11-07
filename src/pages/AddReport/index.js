@@ -1,13 +1,32 @@
-import { Text, View } from 'react-native'
+import {Text, View} from 'react-native';
 
-import React from 'react'
+import AddMapModule from './components/addMapModule';
+import AddPicModule from './components/addPicModule';
+import Footer from '@components/footer';
+import {Input} from 'react-native-elements';
+import Option from './components/option';
+import React from 'react';
+import styles from './styles/index';
 
 const index = () => {
-    return (
+  return (
+    <View style={styles.main}>
+      <View style={[{flex: 1}, styles.centerView]}>
+        <Text>Home</Text>
         <View>
-            <Text>Home</Text>
+          <Option
+            iconName="albums-outline"
+            title=" Acontecimiento"
+            typeIcon="ionicons">
+            <Input placeholde="Ingrese el suceso" />
+          </Option>
         </View>
-    )
-}
+        <AddMapModule />
+        <AddPicModule />
+      </View>
+      <Footer />
+    </View>
+  );
+};
 
-export default index
+export default index;
