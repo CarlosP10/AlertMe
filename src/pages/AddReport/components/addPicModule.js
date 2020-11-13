@@ -12,7 +12,7 @@ const addPicModule = () => {
       <Option
         iconName="albums-outline"
         title=" Agregar Imagen"
-        typeIcon="ionicons">
+        typeIcon="ionicon">
         <ScrollComponent>
           <View style={styles.rowView}>
             <AddPicCard />

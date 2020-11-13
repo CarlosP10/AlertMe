@@ -15,9 +15,9 @@ const index = () => {
         <Text>Home</Text>
         <View>
           <Option
-            iconName="albums-outline"
+            iconName="pencil-outline"
             title=" Acontecimiento"
-            typeIcon="ionicons">
+            typeIcon="ionicon">
             <Input placeholde="Ingrese el suceso" />
           </Option>
         </View>

@@ -1,5 +1,5 @@
 import {Avatar, Icon} from 'react-native-elements';
-import {ColorPropType, Text, TouchableOpacity, View} from 'react-native';
+import {Text, TouchableOpacity, View} from 'react-native';
 
 import {Colors} from '@common';
 import React from 'react';
@@ -9,17 +9,34 @@ const avatar = ({onPress, image}) => {
   return (
     <View>
       <View>
-        <Avatar rounded source={image} size={50} />
-        <TouchableOpacity style={styles.iconView} onPress={() => onPress()}>
+        <Avatar
+        
+          rounded
+          source={image}
+          
+          size={150}
+          
+          // icon={{
+          //   name: 'pencil-outline',
+          //   type: 'ionicon',
+          //   color: Colors.C5,
+          //   size: 15,
+          // }}
+          // showAccessory
+          
+          accessory={{style: {backgroundColor: "orange"}}}
+        />
+        {/* <TouchableOpacity style={styles.iconView} onPress={() => onPress()}>
           <Icon
             name="pencil-outline"
-            type="ionicons"
+            type="ionicon"
             color={Colors.C5}
             reverse
-            size={25}
+            style={styles.iconStyle}
+            size={15}
             reverseColor={Colors.WHITE}
           />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
     </View>
   );

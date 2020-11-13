@@ -10,7 +10,7 @@ const addMapModule = () => {
             <Option
             iconName="location-outline"
             title=" Agregar Localizacion"
-            typeIcon="ionicons">
+            typeIcon="ionicon">
             <PrimaryText>Aca va el mapa</PrimaryText>
           </Option>
         </View>

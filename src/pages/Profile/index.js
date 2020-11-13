@@ -2,6 +2,7 @@ import {Text, View} from 'react-native';
 
 import Avatar from './components/avatar';
 import Body from './components/body';
+import Footer from '@components/footer';
 import React from 'react';
 import styles from './styles/index';
 

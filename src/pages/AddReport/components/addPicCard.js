@@ -1,4 +1,4 @@
-import {Text, TouchableOpacity, View} from 'react-native';
+import {Dimensions, Text, TouchableOpacity, View} from 'react-native';
 
 import {Colors} from '@common';
 import {Icon} from 'react-native-elements';
@@ -12,7 +12,7 @@ const addPic = ({onPress}) => {
       <View style={styles.main}>
         <Icon
           name="add-outline"
-          type="ionicons"
+          type="ionicon"
           size={width * 0.085}
           color={Colors.C3}
         />

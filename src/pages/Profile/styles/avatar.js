@@ -9,10 +9,17 @@ export default StyleSheet.create({
     // backgroundColor:Colors.C3,
   },
   iconView: {
+    
     position: 'absolute',
     justifyContent: 'center',
+    
+    alignItems: 'center',
+  },
+  iconStyle:{
+    
+    justifyContent: 'center',
     marginBottom: -3,
-    marginRight: -5,
+    marginLeft: -5,
     alignItems: 'center',
   },
   centerView: {
