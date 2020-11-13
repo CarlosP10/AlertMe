@@ -1,6 +1,6 @@
 import { Text, View } from 'react-native'
 
-import Option from './components/option';
+import Option from './option';
 import {PrimaryText} from '@common'
 import React from 'react'
 
