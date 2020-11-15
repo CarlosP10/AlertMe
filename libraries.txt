@@ -15,3 +15,9 @@ npm i --save react-native-swift @react-native-community/masked-view react-native
 
 -------------- RENAME PROJECT -------------------
 npm i react-native-rename
+
+-------------- MAPS ---------------------
+npm install react-native-maps --save-exact
+
+-------------- IONICONS ------------------
+npm install react-native-ionicons@^4.x

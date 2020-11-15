@@ -8,18 +8,18 @@ import styles from '../styles/addPic';
 
 const addPicModule = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Option
         iconName="albums-outline"
         title=" Agregar Imagen"
         typeIcon="ionicon">
-        <ScrollComponent>
+        <ScrollComponent horizontal={true} >
           <View style={styles.rowView}>
-            <AddPicCard />
-            <AddPicCard />
-            <AddPicCard />
-            <AddPicCard />
-            <AddPicCard />
+            <AddPicCard onPress={() => console.log("HELLO WORLD")} />
+            <AddPicCard onPress={() => console.log("HELLO WORLD")} />
+            <AddPicCard onPress={() => console.log("HELLO WORLD")} />
+            <AddPicCard onPress={() => console.log("HELLO WORLD")} />
+            <AddPicCard onPress={() => console.log("HELLO WORLD")} />
           </View>
         </ScrollComponent>
       </Option>

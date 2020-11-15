@@ -10,5 +10,8 @@ export default StyleSheet.create({
     },
     centerView: {
         alignItems: 'center',
-      },
+    },
+    container: {
+        width: width * 0.9
+    }
 });

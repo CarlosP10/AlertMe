@@ -5,8 +5,9 @@ import {Colors} from '@common';
 var {width, height} = Dimensions.get('window');
 export default StyleSheet.create({
   main: {
-    width: width * 0.01,
-    height: width * 0.01,
+    borderRadius: 15,
+    width: width * 0.2,
+    height: width * 0.2,
     backgroundColor: Colors.WHITE,
     justifyContent: 'center',
     alignItems: 'center',
@@ -16,4 +17,10 @@ export default StyleSheet.create({
   rowView:{
       flexDirection:'row',
   },
+  container: {
+    width: width * 1,
+    height: width * 0.3,
+    marginTop: height * 0.07,
+    marginBottom: height * 0.07
+  }
 });
