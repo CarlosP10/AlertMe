@@ -1,11 +1,12 @@
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 
 import AuthRouter from './authRouter';
 import HomeRouter from './homeRouter';
-import {NavigationContainer} from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import UserRouter from './userRouter';
-import {createStackNavigator} from '@react-navigation/stack';
+import { createStackNavigator } from '@react-navigation/stack';
+import StartupScreen from '../pages/Startup/StartupScreen';
 
 const Stack = createStackNavigator();
 
@@ -14,19 +15,24 @@ const MainStack = () => {
     <NavigationContainer>
       <Stack.Navigator >
         <Stack.Screen
-          name="HomeRouter"
-          component={HomeRouter}
-          options={{headerShown: false}}
+          name="Startup"
+          component={StartupScreen}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="AuthRouter"
           component={AuthRouter}
-          options={{headerShown: false}}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="HomeRouter"
+          component={HomeRouter}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="UserRouter"
           component={UserRouter}
-          options={{headerShown: false}}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
