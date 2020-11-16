@@ -17,8 +17,6 @@
 		2DCD954D1E0B4F2C00145EB5 /* AlertMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlertMeTests.m */; };
 		3B86CC5D35BEBFBD4A57EF99 /* libPods-AlertMe-AlertMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FC860D5E344A6470A5E762 /* libPods-AlertMe-AlertMeTests.a */; };
 		440D9AEF19EA33476FD767E8 /* libPods-AlertMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70089D7D4BD20591A4FA05D4 /* libPods-AlertMe.a */; };
-		543E144C8647C451CD77676E /* libPods-AlertMe-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9B72F4506BE21789EFDE70 /* libPods-AlertMe-tvOS.a */; };
-		69AB6BB1CB8CCAF26117B804 /* libPods-AlertMe-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477331D6AE4E912A4F6197E0 /* libPods-AlertMe-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +50,6 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AlertMe/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AlertMe-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlertMe-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AlertMe-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlertMe-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D10B0B283518E35BFB7864D /* Pods-AlertMe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-AlertMe-tvOSTests/Pods-AlertMe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		477331D6AE4E912A4F6197E0 /* libPods-AlertMe-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlertMe-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A9B72F4506BE21789EFDE70 /* libPods-AlertMe-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlertMe-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70089D7D4BD20591A4FA05D4 /* libPods-AlertMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlertMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1404162550CC370053B95D /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		7A1404172550CC370053B95D /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
@@ -75,14 +70,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AlertMe/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D6541A8613518D997B6D0FD /* Pods-AlertMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe.debug.xcconfig"; path = "Target Support Files/Pods-AlertMe/Pods-AlertMe.debug.xcconfig"; sourceTree = "<group>"; };
 		A7FC860D5E344A6470A5E762 /* libPods-AlertMe-AlertMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlertMe-AlertMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADFD31054A8319E972CD9238 /* Pods-AlertMe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AlertMe-tvOSTests/Pods-AlertMe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA494915BF491395C864BAC7 /* Pods-AlertMe-AlertMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe-AlertMeTests.release.xcconfig"; path = "Target Support Files/Pods-AlertMe-AlertMeTests/Pods-AlertMe-AlertMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		DFA1C7C09F6B2B1F6CA9498E /* Pods-AlertMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe.release.xcconfig"; path = "Target Support Files/Pods-AlertMe/Pods-AlertMe.release.xcconfig"; sourceTree = "<group>"; };
 		E43346127B946FA66651ECFA /* Pods-AlertMe-AlertMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe-AlertMeTests.debug.xcconfig"; path = "Target Support Files/Pods-AlertMe-AlertMeTests/Pods-AlertMe-AlertMeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E5C5C85456CE7FD9EFE2667B /* Pods-AlertMe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AlertMe-tvOS/Pods-AlertMe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FBA1D09B0D9F8B3B9BEA1F51 /* Pods-AlertMe-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertMe-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AlertMe-tvOS/Pods-AlertMe-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543E144C8647C451CD77676E /* libPods-AlertMe-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69AB6BB1CB8CCAF26117B804 /* libPods-AlertMe-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,10 +150,6 @@
 				DFA1C7C09F6B2B1F6CA9498E /* Pods-AlertMe.release.xcconfig */,
 				E43346127B946FA66651ECFA /* Pods-AlertMe-AlertMeTests.debug.xcconfig */,
 				BA494915BF491395C864BAC7 /* Pods-AlertMe-AlertMeTests.release.xcconfig */,
-				FBA1D09B0D9F8B3B9BEA1F51 /* Pods-AlertMe-tvOS.debug.xcconfig */,
-				E5C5C85456CE7FD9EFE2667B /* Pods-AlertMe-tvOS.release.xcconfig */,
-				ADFD31054A8319E972CD9238 /* Pods-AlertMe-tvOSTests.debug.xcconfig */,
-				3D10B0B283518E35BFB7864D /* Pods-AlertMe-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -175,8 +161,6 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				70089D7D4BD20591A4FA05D4 /* libPods-AlertMe.a */,
 				A7FC860D5E344A6470A5E762 /* libPods-AlertMe-AlertMeTests.a */,
-				4A9B72F4506BE21789EFDE70 /* libPods-AlertMe-tvOS.a */,
-				477331D6AE4E912A4F6197E0 /* libPods-AlertMe-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,7 +269,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlertMe-tvOS" */;
 			buildPhases = (
-				ABDEF7BFEEA06CDC0D252322 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -305,7 +288,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlertMe-tvOSTests" */;
 			buildPhases = (
-				C2A56391EA7FCE747ED3B299 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -483,6 +465,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AlertMe-AlertMeTests/Pods-AlertMe-AlertMeTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -503,6 +486,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
@@ -526,50 +510,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlertMe-AlertMeTests/Pods-AlertMe-AlertMeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ABDEF7BFEEA06CDC0D252322 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AlertMe-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2A56391EA7FCE747ED3B299 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AlertMe-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DD7CD98AE87B56BA7304AA22 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -577,6 +517,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AlertMe/Pods-AlertMe-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -597,6 +538,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
@@ -804,7 +746,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA1D09B0D9F8B3B9BEA1F51 /* Pods-AlertMe-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -832,7 +773,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5C5C85456CE7FD9EFE2667B /* Pods-AlertMe-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -860,7 +800,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADFD31054A8319E972CD9238 /* Pods-AlertMe-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -887,7 +826,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D10B0B283518E35BFB7864D /* Pods-AlertMe-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

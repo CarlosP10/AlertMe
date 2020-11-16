@@ -13,28 +13,23 @@ target 'AlertMe' do
     # Pods for testing
   end
 
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  # pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse.podspec"
   # Enables Flipper.
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable these next few lines.
-  use_flipper!
-  post_install do |installer|
-    flipper_post_install(installer)
-  end
-end
 
-target 'AlertMe-tvOS' do
-  # Pods for AlertMe-tvOS
-
-  target 'AlertMe-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-  
   # React Native Maps dependencies
   rn_maps_path = '../node_modules/react-native-maps'
   pod 'react-native-google-maps', :path => rn_maps_path
   pod 'GoogleMaps'
   pod 'Google-Maps-iOS-Utils'
 
+  use_flipper!
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
 end
+
