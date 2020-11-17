@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet } from 'react-native'
+import { Alert, View } from 'react-native'
 
 import Option from './option';
 import {PrimaryText} from '@common'
@@ -8,6 +8,9 @@ import styles from '../styles/addMap';
 import MapView from 'react-native-maps'
 
 const addMapModule = () => {
+
+    
+
     return (
         <View style={styles.mapContainer}>
             <Option

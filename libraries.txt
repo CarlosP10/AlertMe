@@ -18,6 +18,7 @@ npm i react-native-rename
 
 -------------- MAPS ---------------------
 npm install react-native-maps --save-exact
+npm install @react-native-community/geolocation --save
 
 -------------- IONICONS ------------------
 npm install react-native-ionicons@^4.x

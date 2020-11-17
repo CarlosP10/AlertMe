@@ -5,31 +5,71 @@ import AddPicModule from './components/addPicModule';
 import Footer from '@components/footer';
 import {Input} from 'react-native-elements';
 import Option from './components/option';
-import React from 'react';
 import styles from './styles/index';
-import ScrollComponent from '@components/scrollComponent';
+import Geolocation from '@react-native-community/geolocation';
+import React, {useState} from 'react';
 
-const index = () => {
-  return (
-    <View style={styles.main}>
-      <ScrollView>
-      <View style={[{flex: 1}, styles.centerView]}>
-        <Text>Home</Text>
-        <View style={styles.container}>
-          <Option
-            iconName="pencil-outline"
-            title=" Acontecimiento"
-            typeIcon="ionicon">
-            <Input placeholder="Ingrese el suceso" />
-          </Option>
+export default class index extends React.Component {
+
+  constructor() {
+    super();
+    this.state  = {
+      ready: false,
+      location: {lat:null, lng: null},
+      error: null
+  }
+  }
+
+  geoSuccess = (position) => {
+      console.log(position)
+  }
+
+  geoError = (err) => {
+    console.log(err)
+    this.setState({ error: err.message})
+  }
+
+  getLocation = () => {
+    let geoOptions = {
+        enableHighAccuracy: true,
+        timeOut: 60000,
+        maximumAge: 60 * 60
+    };
+
+    Geolocation.getCurrentPosition(
+        this.geoSuccess,
+        this.geoError,
+        geoOptions
+    );
+  }
+
+  componentDidMount(){
+      this.setState({ ready: false, error: null });
+      this.getLocation()
+  }
+
+  render() {
+    return (
+      <View style={styles.main}>
+        <ScrollView>
+        <View style={[{flex: 1}, styles.centerView]}>
+          <Text>Home</Text>
+          <View style={styles.container}>
+            <Option
+              iconName="pencil-outline"
+              title=" Acontecimiento"
+              typeIcon="ionicon">
+              <Input placeholder="Ingrese el suceso" />
+            </Option>
+          </View>
+          <AddMapModule />
+          <AddPicModule />
         </View>
-        <AddMapModule />
-        <AddPicModule />
+        </ScrollView>
+        <Footer />
       </View>
-      </ScrollView>
-      <Footer />
-    </View>
-  );
+    );
+  }
+  
 };
 
-export default index;
